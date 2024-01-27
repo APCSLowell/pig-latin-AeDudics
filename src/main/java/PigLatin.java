@@ -50,10 +50,8 @@ public class PigLatin {
 		    	return sWord + "way";
 	            }else if(sWord.substring(0,2) == "qu"){
 		    	return sWord.substring(2) + "quay";
-	            }else if(findFirstVowel(sWord) > 0){
-		    	return sWord.substring(1) + sWord.substring(0,1) + "ay";
 	            }else{
-		    	return "ERROR!";
+		    	return sWord.substring(1) + sWord.substring(0,1) + "ay";;
 	    	}
 	}
     }
